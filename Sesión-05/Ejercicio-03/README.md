@@ -21,31 +21,7 @@ Este ejemplo a continuación explicará cómo crear la clase apex y el generador
 
 2. Crea una clase apex:
  
-/**
- Class Name: createchildRecords
- Purpose: Create N number of contacts based on the field ‘Number of contacts’ while Account is created.  
-**/
- 
-public class CreateChildRecords  {
-@InvocableMethod (label=’Create Contacts’) 
-public Static void createContact(List<Id> accIds){ 
-List<Contact> conListToInsert = new List<Contact>(); //list to collect and insert the contacts 
-//Query the accounts 
-List<Account> accList = [Select Id, Name, Number_of_Contacts__c from Account where Id =:accIds];
-//loop through the accounts and create contacts
-for(Account acc : accList)
-{
-if(acc.Number_of_Contacts__c != null)
-{
-for(integer i=1;i<=acc.Number_of_Contacts__c;i++)
-{
-Contact con = new Contact();
-con.LastName = ‘Invocable’ + acc.Name +’ ‘+ i;
-con.AccountId = acc.Id;
-conListToInsert.add(con);
- }  }  }
-if(!conListToInsert.isEmpty()) {
-insert conListToInsert; }   } }
+![image](https://user-images.githubusercontent.com/523243/158459370-4f94f461-cf2f-45bb-b2e2-89be0812ce65.png)
 
 3. Crea el process builder:
 
