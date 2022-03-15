@@ -21,7 +21,7 @@ Este ejemplo a continuación explicará cómo crear la clase apex y el generador
 
 2. Crea una clase apex:
  
-![image](https://user-images.githubusercontent.com/523243/158459370-4f94f461-cf2f-45bb-b2e2-89be0812ce65.png)
+![image](https://user-images.githubusercontent.com/523243/158459534-6f5f346b-770e-4925-972d-6159c2f2f343.png)
 
 3. Crea el process builder:
 
