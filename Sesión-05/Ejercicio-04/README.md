@@ -1,18 +1,15 @@
 
-# Sesión #: Nombre del ejercecio
+# Sesión 05: Procesamiento Programado - Queable interface
 
 ## :dart: Objetivos
 
-Agregar los objetivos de las sesión (Mínimo poner tres objetivos y Borrar está linea una vez se hay leido )
+- Entender los conceptos basicos del procesamiento programado
+- Aprender la correcta sintaxis para implementar procesamiento programado
+- Construir un process builder con procesamiento programado en Apex
 
-- Objetivo 1
-- Objetivo 2
-- Objetivo 3
+## ⚙ Desarrollo
 
-## ⚙ Requisitos
-
-+ Agregar los requisitos de la sesión 
-+ Agregar el link de descarga en caso de ser necesario para la sesión (Borrar estás lineas una vez se hayan leido)
+![image](https://user-images.githubusercontent.com/523243/158460992-b4e6d995-2fc4-4677-a6c8-d17beaad9d95.png)
 
 
 
